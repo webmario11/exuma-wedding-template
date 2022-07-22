@@ -1634,8 +1634,47 @@ html {
 .social-icon li a:hover {
   background-color: white;
   color: #00776d;
-}/*# sourceMappingURL=style.css.map */
+}
 
 .img-rounded {
   border-radius: 30px !important;
+}
+
+
+
+.img-team {
+display: inline-block; /* Строчно-блочный элемент */
+overflow: hidden; /* Скрываем всё за контуром */
+}
+.img-team img {
+transition: 1s; /* Время эффекта */
+display: block; /* Убираем небольшой отступ снизу */
+}
+.img-team img:hover {
+transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.img-anim {
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+
+.img-anim img {
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+}
+.img-anim img:hover {
+  transform: scale(1.05); /* Увеличиваем масштаб */
+}
+
+.packages-background {
+  position: relative;
+  background: linear-gradient(rgba(37, 45, 49, 0.7), rgba(37, 45, 49, 0.7)), url("../images/cta.jpg") fixed no-repeat;
+}
+
+.border-success {
+  border-color: var(--second) !important;
+}
+
+.packages-header {
+  color: #fff;
 }

@@ -1,0 +1,108 @@
+ <section class="section packages" id="packages">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="text-center mb-4">
+                        <h2 class="heading">Packages</h2>
+                        <p class="text-muted fs-17">Exuma Elopements offers five wedding packages,
+                            choose from the Wedding Elopmenent,
+                            Adventure Elopement, Proposal, Vow Renewal
+                            and Destination Wedding packages.
+                        </p>
+                    </div>
+                </div><!-- end col-->
+            </div><!-- end row-->
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-7 mt-sm-4">
+                        <div data-aos="fade-right" data-aos-duration="1800">
+                            <div class="feature-card p-3 py-sm-4 rounded d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="mdi mdi-flower-tulip text-primary float-start me-3 h2"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-2">
+                                        <div class="content">
+                                            <h5 class="title">Exuma Elopement</h5>
+                                            <p class="text-muted">An elopement is when you and your partner choose yourselves over
+                                                everything else.
+                                                The island of Exuma is a magical place for your destination
+                                                elopement, as it’s secluded and offers a balance of romantic and
+                                                breathtaking scenery.</p>
+                                            <a href="javascipt:void(0)" class="text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-lg-4 col-md-7 mt-sm-4">
+                        <div class="feature-card p-3 py-sm-4 rounded">
+                            <i class="mdi mdi-flower-tulip text-primary float-start me-3 h2"></i>
+                            <div class="content d-block overflow-hidden">
+                                <h5 class="title">Adventure Elopement</h5>
+                                <p class="text-muted mt-2">
+                                    Make the most memorable day in your life an Adventure Elopement
+experience. Forget any pre-existing notions you have about what your
+wedding ‘should’ look like and let’s talk about what it ‘could’ look like.
+An Adventure Elopement experience is all about celebrating your
+wedding day the way you actually want to.
+                                </p>
+                                <a href="javascipt:void(0)" class="text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                    <div class="col-lg-4 col-md-7 mt-sm-4">
+                        <div data-aos="fade-left" data-aos-duration="1800">
+                            <div class="feature-card p-3 py-sm-4 rounded">
+                                <i class="mdi mdi-flower-tulip text-primary float-start me-3 h2"></i>
+                                <div class="content d-block overflow-hidden">
+                                    <h5 class="title">Vow Renewal</h5>
+                                    <p class="text-muted mt-2">
+                                        Vow renewals can be a special get-away just for the two of you or
+a fun affair for the family. Our expertise will help guide you to the
+perfect location to say “I Do” all over again.
+                                    </p>
+                                    <a href="javascipt:void(0)" class="text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-lg-6 col-md-7 mt-sm-4">
+                        <div data-aos="fade-right" data-aos-duration="1800">
+                            <div class="feature-card p-3 py-sm-4 rounded">
+                                <i class="mdi mdi-flower-tulip text-primary float-start me-3 h2"></i>
+                                <div class="content d-block overflow-hidden">
+                                    <h5 class="title">Proposal</h5>
+                                    <p class="text-muted mt-2">
+                                        A proposal is one of the most memorable moments in your future
+marriage. Make it an a unforgettable ceremony ... asking your loved
+one, for her hand in marriage in romantic Exuma, adds another
+element of surprise, and sets you up for post-proposal celebrations!
+                                    </p>
+                                    <a href="javascipt:void(0)" class="text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-lg-6 col-md-7 mt-sm-4">
+                        <div data-aos="fade-left" data-aos-duration="1800">
+                            <div class="feature-card p-3 py-sm-4 rounded">
+                                <i class="mdi mdi-flower-tulip text-primary float-start me-3 h2"></i>
+                                <div class="content d-block overflow-hidden">
+                                    <h5 class="title">Destination Wedding</h5>
+                                    <p class="text-muted mt-2">
+                                        If you’re a couple who believe that your wedding day should be about
+spending an unforgettable time with your loved ones. Make your
+dreams come true with Exuma Elopements.
+                                    </p>
+                                    <a href="javascipt:void(0)" class="text-dark">Read More <i class="mdi mdi-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div>
+
+        </section>
+        <!-- end Packages -->
