@@ -703,10 +703,6 @@ html {
   margin-top: 0px;
   padding: 18px 0px;
   background-color: #ffffff;
-
-}
-
-.nav-shadow.navbar-custom {
   box-shadow: 0px 3px 10px 0px rgba(38, 107, 193, 0.08);
 }
 .nav-sticky .navbar-brand .logo-dark {
@@ -791,7 +787,7 @@ html {
 .home {
   background-position: center;
   background-size: cover;
-  padding: 175px 0;
+  padding: 215px 0;
 }
 .home .home-heading h1 {
   font-size: 35px;
@@ -919,11 +915,11 @@ html {
 }
 
 .home-4 {
-  background-color: #fff;
+  background-color: #00776d;
 }
 .home-4 .home-btn .modal-btn .btn-icon {
   color: #00776d;
-  background-color: #00776d;
+  background-color: white;
 }
 .home-4 .shape-1 {
   width: 50px;
@@ -1448,6 +1444,7 @@ html {
 }
 .portfolio .team-card .team-card-img img {
   transition: 0.5s ease-in-out;
+  border-radius: 10px 10px 0 0;
 }
 .portfolio .team-card .team-card-img .team-social-icons {
   position: absolute;
@@ -1609,21 +1606,21 @@ html {
   }
 }
 .footer {
-  color: var(--second);
+  color: white;
   font-size: 15px;
-  background-color: var(--first);
+  background-color: rgba(37, 45, 49, 0.9);
 }
 
 .footer-alt {
-  background-color: var(--first);
-  border-top: 1px solid var(--third);
+  background-color: rgba(37, 45, 49, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .social-icon .list-inline-item:not(:last-child) {
   margin-right: 5px;
 }
 .social-icon li a {
-  color: var(--second);
+  color: white;
   border: 1px solid white;
   display: inline-block;
   height: 32px;
@@ -1680,8 +1677,4 @@ transform: scale(1.1); /* Увеличиваем масштаб */
 
 .packages-header {
   color: #fff;
-}
-
-.text-second {
-  color: var(--second);
 }
