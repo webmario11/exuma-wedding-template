@@ -25,6 +25,7 @@
   --first: #b4dbda;
   --second: #3a8f8c;
   --third: #cdedec;
+  --fourth: #6d7987;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
@@ -1161,21 +1162,7 @@ html {
   font-size: 28px;
   margin-bottom: 4px;
 }
-.feature .feature-heading::before {
-  content: "";
-  position: absolute;
-  background-color: rgba(0, 119, 109, 0.4);
-  height: 50px;
-  width: 50px;
-  bottom: -14px;
-  border-radius: 100% 38% 100% 51%/45% 49% 100% 100%;
-  z-index: -1;
-  transform: translateX(-50%);
-  height: 38px;
-  width: 38px;
-  bottom: 0px;
-  left: 15px;
-}
+
 .feature .feature-list {
   margin: 30px 0;
   list-style: none;
@@ -1684,4 +1671,26 @@ transform: scale(1.1); /* Увеличиваем масштаб */
 
 .text-second {
   color: var(--second);
+}
+
+/* packages page */
+
+ul.packages-list {
+  padding: 0; /* Убираем поля */
+  list-style-type: none;
+  margin: 0;
+}
+ul.packages-list li{
+  color: var(--fourth);
+}
+ul.packages-list li::before {
+  color: #38b7c6; /* Цвет маркера */
+  content: "•"; /* Сам маркер */
+  padding-right: 10px; /* Расстояние от маркера до текста */
+}
+.text-fourth {
+  color: var(--fourth);
+}
+.portfolio-couple h2 {
+  border-bottom: 1px solid var(--first);
 }
