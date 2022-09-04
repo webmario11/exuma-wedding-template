@@ -26,6 +26,11 @@
   --second: #3a8f8c;
   --third: #cdedec;
   --fourth: #6d7987;
+
+  --new-color-first: #a4d7da;
+  --new-color-second: #1c7a84;
+  --new-color-third: #747476;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
@@ -642,7 +647,7 @@ html {
 
 .navbar-custom {
   background-color: transparent;
-  padding: 18px 0px;
+  padding: 12px 0px;
   width: 100%;
   border-radius: 0px;
   z-index: 999;
@@ -661,25 +666,19 @@ html {
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 14.5px;
   color: rgba(255, 255, 255, 0.7);
-  margin: 0 14px;
+  margin: 0 10px;
   transition: all 0.5s;
   position: relative;
-  font-weight: 500;
+  font-weight: 700;
 }
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link.active {
   color: #ffffff;
+  text-decoration: underline;
 }
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link.active::before {
   width: 100%;
 }
 .navbar-custom .navbar-collapse .navbar-nav .nav-item .nav-link::before {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  width: 0px;
-  height: 2px;
-  background-color: #ffffff;
-  left: 50%;
   transform: translateX(-50%);
   transition: all 0.2s;
 }
@@ -702,7 +701,7 @@ html {
 /*---NAVBAR STICKY--*/
 .nav-sticky.navbar-custom {
   margin-top: 0px;
-  padding: 18px 0px;
+  padding: 12px 0px;
   background-color: #ffffff;
 
 }
@@ -717,19 +716,19 @@ html {
   display: none;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link {
-  color: #252d31 !important;
+  color: var(--new-color-first) !important;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #00776d !important;
+  color: var(--new-color-second) !important;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link:hover {
-  color: #00776d !important;
+  color: var(--new-color-second) !important;
 }
 .nav-sticky .navbar-nav .nav-item .nav-link::before {
-  background-color: #00776d !important;
+  background-color: var(--new-color-second) !important;
 }
 .nav-sticky .nav-btn {
-  background-color: #00776d;
+  background-color: var(--new-color-second);
   color: white;
 }
 
@@ -790,9 +789,38 @@ html {
   }
 }
 .home {
-  background-position: center;
-  background-size: cover;
   padding: 175px 0;
+}
+
+.bghome {
+  background-color: #fff;
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: -10% 80%;
+}
+
+.sortblock1{
+  order: 1;
+}
+
+.sortblock2{
+  order: 2;
+}
+
+@media (max-width: 576px) {
+  .bghome {
+    background-size: 80%;
+  }
+
+  .sortblock1{
+    order: 2;
+  }
+  
+  .sortblock2{
+    order: 1;
+    margin-bottom: 2rem;
+  }
 }
 .home .home-heading h1 {
   font-size: 35px;
@@ -1099,6 +1127,7 @@ html {
     height: auto;
     max-width: 100%;
   }
+  
 }
 @media (max-width: 576px) {
   .home {
@@ -1286,7 +1315,11 @@ html {
 }
 .reviews .carousel-indicators {
   left: 10%;
-  top: 70%;
+  top: 90%;
+}
+
+.reviews .buttonprev {
+  right: -10%
 }
 .reviews .carousel-indicators button {
   width: 12px;
@@ -1416,7 +1449,7 @@ html {
   }
 }
 .portfolio {
-  background-color: var(--third);
+  background-color: #e0f1f0;;
   overflow: hidden;
 }
 .portfolio #particles-js {
@@ -1675,6 +1708,14 @@ transform: scale(1.1); /* Увеличиваем масштаб */
 
 /* packages page */
 
+.packages .title {
+  color: var(--new-color-first);
+}
+
+.packages .linkread {
+  color: var(--new-color-second);
+}
+
 ul.packages-list {
   padding: 0; /* Убираем поля */
   list-style-type: none;
@@ -1693,4 +1734,16 @@ ul.packages-list li::before {
 }
 .portfolio-couple h2 {
   border-bottom: 1px solid var(--first);
+}
+
+.new-color-first {
+  color: var(--new-color-first) !important;
+}
+
+.new-color-second {
+  color: var(--new-color-second) !important;
+}
+
+.new-color-third {
+  color: var(--new-color-third) !important;
 }
